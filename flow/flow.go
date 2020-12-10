@@ -82,6 +82,8 @@ const (
 	ConditionGT                               = "GreaterThan"
 	ConditionLTE                              = "LessThanOrEqualTo"
 	ConditionLT                               = "LessThan"
+	ConditionSW 				  = "StartsWith"
+	ConditionEW				  = "EndsWith"
 )
 
 // Values that can be dynamically looked up from the Connect system.
